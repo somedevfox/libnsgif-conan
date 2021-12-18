@@ -1,0 +1,25 @@
+{
+ "graph_lock": {
+  "nodes": {
+   "0": {
+    "options": "libnsgif:fPIC=True\nlibnsgif:shared=False",
+    "requires": [
+     "1"
+    ],
+    "path": "conanfile.py",
+    "context": "host"
+   },
+   "1": {
+    "ref": "libnsgif/1.0@demo/testing#18756e241617db161daed1b049e83826",
+    "options": "fPIC=True\nshared=False",
+    "package_id": "82ef5eac51c38971dea2fd342dd55ddf2ddfbbc3",
+    "prev": "bb62e60c4ad458e3136ea9e8bef042e9",
+    "modified": true,
+    "context": "host"
+   }
+  },
+  "revisions_enabled": true
+ },
+ "version": "0.4",
+ "profile_host": "[settings]\narch=x86_64\narch_build=x86_64\nbuild_type=Release\ncompiler=gcc\ncompiler.libcxx=libstdc++\ncompiler.version=10\nos=Linux\nos_build=Linux\n[options]\n[build_requires]\n[env]\nCONAN_DISABLE_CHECK_COMPILER=1\n*:CC=gcc-9\n*:CXX=g++-9"
+}

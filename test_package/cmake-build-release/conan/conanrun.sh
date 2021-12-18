@@ -1,0 +1,1 @@
+. "/home/somedevfox/Desktop/libnsgif-conan/test_package/cmake-build-release/conan/conanrunenv-release-x86_64.sh"

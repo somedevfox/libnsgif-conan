@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/somedevfox/.conan/data/libnsgif/1.0/demo/testing/package/82ef5eac51c38971dea2fd342dd55ddf2ddfbbc3/include/libnsgif.h
+stdbool.h
+-
+inttypes.h
+-
+stddef.h
+-
+
+/home/somedevfox/Desktop/libnsgif-conan/test_package/src/example.cpp
+libnsgif.h
+/home/somedevfox/Desktop/libnsgif-conan/test_package/src/libnsgif.h
+

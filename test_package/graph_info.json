@@ -1,0 +1,18 @@
+{
+ "options": [
+  [
+   "libnsgif:fPIC",
+   "True"
+  ],
+  [
+   "libnsgif:shared",
+   "False"
+  ]
+ ],
+ "root": {
+  "name": null,
+  "version": null,
+  "user": "demo",
+  "channel": "testing"
+ }
+}
